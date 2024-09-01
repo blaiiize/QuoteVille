@@ -1,5 +1,5 @@
 # QuoteVille
-This project is a social platform designed to allow users to create, share, and discover quotes all in one place. It has a social media 'feed'-style layout where users can like, copy, and search for quotes that other users post. This project was made using React, Next.js, and MongoDB.
+QuoteVille is a social platform designed to allow users to create, share, and discover quotes all in one place. It has a social media 'feed'-style layout where users can like, copy, and search for quotes that other users post. This project was made using React, Next.js, and MongoDB.
 
 <img width="1401" alt="Screenshot 2024-09-01 at 4 07 27 PM" src="https://github.com/user-attachments/assets/e2fffbb9-4c63-4d79-b19d-2f0782371ae5">
 
@@ -13,8 +13,6 @@ Features for this project include:
 * Ability to search for posts containing specific text via a search bar
 * Ability to seach for posts by tag by clicking on a tag
 * Ability for users to edit and delete their own posts
-## License
-TBD
 ## Source
 Latest version is available on github: https://github.com/blaiiize/QuoteVille
 ## Developers
