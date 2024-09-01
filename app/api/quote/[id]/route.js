@@ -24,7 +24,7 @@ export const GET = async (request, { params }) => {
 export const PATCH = async (request, { params }) => {
 
     // extract updated quote and tag values from the request
-    const { quote, tag } = await request.json();
+    const { quote, tag, author } = await request.json();
 
     try {
 
@@ -39,6 +39,7 @@ export const PATCH = async (request, { params }) => {
         // update quote and tag fields with new values
         existingQuote.quote = quote;
         existingQuote.tag = tag;
+        existingQuote.author = author;
 
         // save updated quote to database
         await existingQuote.save();
