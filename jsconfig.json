@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Base URL set to the root of your project
     "paths": {
-      "@/*": ["./*"]
+      "@": ["@"] // Alias for all directories
     }
   }
 }
